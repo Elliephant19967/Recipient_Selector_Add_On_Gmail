@@ -1,6 +1,6 @@
-# Recipient Selector Gmail Add-on
+# ![Recipient Selector Logo](https://raw.githubusercontent.com/Elliephant19967/Recipient_Selector_Add_On_Gmail/350f0bb5a81f5c1bb275762850750f36d352be9c/Add_On_Logo_24px.jpg) Recipient Selector Gmail Add-on
 
-![Recipient Selector Logo](https://raw.githubusercontent.com/Elliephant19967/Recipient_Selector_Add_On_Gmail/fcdb8d594a26a35703dde30e8e368a5efcef5632/Add_On_Logo_120px.jpg)
+
 
 ## Overview
 
