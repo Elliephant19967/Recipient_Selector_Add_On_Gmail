@@ -84,7 +84,8 @@ This project is built with Google Apps Script and uses the Gmail Add-on CardServ
 - `Code.gs` — main Apps Script code.
 - `appsscript.json` — manifest file with add-on configuration.
 - `README.md` — this file.
-- `Add_On_Logo_24px.png` — add-on logo (24x24 px, PNG format).
+- `Add_On_Logo_24px.jpg` — add-on logo (24x24 px, JPG format).
+- `Add_On_Logo_120px.png` — add-on marketplace logo (120x120 px, JPG format).
 
 ---
 
