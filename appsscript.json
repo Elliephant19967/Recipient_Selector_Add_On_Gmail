@@ -6,20 +6,17 @@
   "oauthScopes": [
     "https://www.googleapis.com/auth/gmail.readonly",
     "https://www.googleapis.com/auth/calendar.events",
-    "https://www.googleapis.com/auth/script.external_request"
-  ],
-  "urlFetchWhitelist": [
-    "https://mail.google.com/*",
-    "https://calendar.google.com/*"
+    "https://www.googleapis.com/auth/script.external_request",
+    "https://www.googleapis.com/auth/gmail.addons.execute"
   ],
   "addOns": {
     "common": {
       "name": "Recipient Selector",
-      "logoUrl": "https://www.gstatic.com/images/icons/material/system/2x/people_black_48dp.png",
-      "openLinkUrlPrefixes": [
-        "https://mail.google.com/",
-        "https://calendar.google.com/"
-      ]
+      "logoUrl": "https://raw.githubusercontent.com/Elliephant19967/Recipient_Selector_Add_On_Gmail/fcdb8d594a26a35703dde30e8e368a5efcef5632/Add_On_Logo_120px.jpg",
+      "layoutProperties": {
+        "primaryColor": "#4285F4",
+        "secondaryColor": "#FFFFFF"
+      }
     },
     "gmail": {
       "contextualTriggers": [
@@ -28,8 +25,17 @@
           "onTriggerFunction": "getContextualAddOn"
         }
       ],
+      "logoUrl": "https://raw.githubusercontent.com/Elliephant19967/Recipient_Selector_Add_On_Gmail/fcdb8d594a26a35703dde30e8e368a5efcef5632/Add_On_Logo_120px.jpg",
       "name": "Recipient Selector",
-      "logoUrl": "https://www.gstatic.com/images/icons/material/system/2x/people_black_48dp.png"
+      "openLinkUrlPrefixes": [
+        "https://mail.google.com/",
+        "https://calendar.google.com/"
+      ]
     }
-  }
+  },
+  "urlFetchWhitelist": [
+    "https://mail.google.com/",
+    "https://calendar.google.com/",
+    "https://raw.githubusercontent.com/"
+  ]
 }
