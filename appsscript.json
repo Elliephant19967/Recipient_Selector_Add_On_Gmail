@@ -1,0 +1,35 @@
+{
+  "timeZone": "America/New_York",
+  "dependencies": {},
+  "exceptionLogging": "STACKDRIVER",
+  "runtimeVersion": "V8",
+  "oauthScopes": [
+    "https://www.googleapis.com/auth/gmail.readonly",
+    "https://www.googleapis.com/auth/calendar.events",
+    "https://www.googleapis.com/auth/script.external_request"
+  ],
+  "urlFetchWhitelist": [
+    "https://mail.google.com/*",
+    "https://calendar.google.com/*"
+  ],
+  "addOns": {
+    "common": {
+      "name": "Recipient Selector",
+      "logoUrl": "https://www.gstatic.com/images/icons/material/system/2x/people_black_48dp.png",
+      "openLinkUrlPrefixes": [
+        "https://mail.google.com/",
+        "https://calendar.google.com/"
+      ]
+    },
+    "gmail": {
+      "contextualTriggers": [
+        {
+          "unconditional": {},
+          "onTriggerFunction": "getContextualAddOn"
+        }
+      ],
+      "name": "Recipient Selector",
+      "logoUrl": "https://www.gstatic.com/images/icons/material/system/2x/people_black_48dp.png"
+    }
+  }
+}
