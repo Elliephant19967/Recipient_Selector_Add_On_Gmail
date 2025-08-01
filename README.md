@@ -1,6 +1,4 @@
-# ![Recipient Selector Logo](https://raw.githubusercontent.com/Elliephant19967/Recipient_Selector_Add_On_Gmail/350f0bb5a81f5c1bb275762850750f36d352be9c/Add_On_Logo_24px.jpg) Recipient Selector Gmail Add-on
-
-
+# ![Recipient Selector Logo](https://raw.githubusercontent.com/Elliephant19967/Recipient_Selector_Add_On_Gmail/fcdb8d594a26a35703dde30e8e368a5efcef5632/Add_On_Logo_24px.jpg) Recipient Selector Gmail Add-on
 
 ## Overview
 
@@ -11,7 +9,8 @@
 ## Features
 
 - Displays all recipients (To, Cc, Bcc) from the currently opened email.
-- Allows selecting any combination of recipients via checkboxes.
+- Allows selecting **multiple recipients** in each group via checkboxes.
+- Deduplicates selected recipients automatically.
 - Quickly compose a new email prefilled with the selected recipients.
 - Create a Google Calendar event invitation including selected recipients.
 - Confirmation prompt when no recipients are selected before composing or creating an event.
@@ -65,7 +64,7 @@ Recipient Selector is published as an **unlisted public add-on** on the Google W
    The sidebar will open and list all recipients from the email (To, Cc, Bcc).
 
 3. **Select recipients to include.**  
-   Use the checkboxes to select or deselect recipients.
+   Use the checkboxes to select or deselect one or more recipients from each group.
 
 4. **Choose an action:**  
    - **Compose Email**: Opens a new Gmail compose window prefilled with the selected recipients.  
@@ -85,7 +84,7 @@ This project is built with Google Apps Script and uses the Gmail Add-on CardServ
 - `appsscript.json` — manifest file with add-on configuration.
 - `README.md` — this file.
 - `Add_On_Logo_24px.jpg` — add-on logo (24x24 px, JPG format).
-- `Add_On_Logo_120px.png` — add-on marketplace logo (120x120 px, JPG format).
+- `Add_On_Logo_120px.jpg` — add-on marketplace logo (120x120 px, JPG format).
 
 ---
 
@@ -102,4 +101,3 @@ For questions or issues, please open an issue in this repository or contact **[Y
 ---
 
 *Last updated: 2025-08-01*
-
